@@ -1,0 +1,290 @@
+@font-face 
+{
+	font-family: "hinde";
+	src: url(../fonts/Hindenburg.ttf);
+}
+
+
+* 
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+
+body
+{
+	background-color:  #343A40;
+}
+
+
+
+/*landing page*/
+#jumbo-land 
+{
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounded corners*/
+	width: 100px;
+}
+
+.jumbotron h1 
+{
+	font-family: 'Roboto', sans-serif;
+	color: #f2f2f2; /*off white*/
+}
+
+.jumbotron hr 
+{
+	background-color: #fff;
+}
+
+.btn a 
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*end landing*/
+
+/*#navbar {
+	background-color: indianred;
+}*/
+
+
+/*home page*/
+#home-landing 
+{
+	background-image: url(https://66.media.tumblr.com/f6e96f573f9615e0c20a3578f646a79c/tumblr_nf9fsh35la1tvppquo1_r1_1280.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 10%;
+}
+
+.frontborder
+{
+	background-color: #343A40;
+	opacity: 0.8;
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.opacities
+{
+	opacity: 0.5;
+}
+
+.container
+{
+	margin-top: 50px;
+	border-color: white;
+	width: 100%;
+
+}
+.containerbg
+{
+	background-image: url(https://cdna.artstation.com/p/assets/images/images/009/315/116/original/coln-chen-camping0330-2.gif?1518285310);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.carousel-inner
+{
+	margin: 0 auto;
+}
+
+#carousel-home
+{
+	height: 100vh;
+}
+
+#carousel-home img
+{
+	height: 75vh;
+}
+
+.card:hover
+{
+	background-color: white;
+	color: red;
+}
+
+
+
+.kolumn 
+{
+	background-color: red;
+}
+
+.row
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#easyphase
+{
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	padding: 20px 0;
+}
+
+/*end home page*/
+
+/*about page*/
+#jumbotron-about 
+{
+	background-color: #333;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#landing-about 
+{
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: hinde, sans-serif;
+}
+
+#mission 
+{
+	height: 100%;
+	background-color: #333; /*off black*/
+	color: #fff; /*off white*/
+}
+
+#vision 
+{
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+}
+
+.about-tags 
+{
+	font-weight: bold;
+	font-family: hinde, sans-serif;	
+}
+
+/*end about*/
+
+/*footer*/
+p.footercolor
+{
+	color: white;
+}
+
+/*footer*/
+
+
+
+
+
+
+
+/*Media Queries*/
+
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 400px)
+{
+	
+
+	.nav
+	{
+		display: none;
+	}
+
+	.main
+	{
+		margin-left: 0;
+	}
+
+	body
+	{
+		background-color: lightgrey;
+	}
+	#gmap
+	{
+		width: 290px;
+		height: 200px;
+	}
+
+	
+} 
+
+/*Tablet*/
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+	.nav
+	{
+		display: none;
+	}
+
+	.main
+	{
+		margin-left: 0;
+	}
+
+	body
+	{
+		background-color: lightgrey;
+	}	
+
+	#gmap
+	{
+		width: 550px;
+		height: 400px;
+	}
+}
+
+/*desktop view*/
+
+@media only screen and (min-width: 961px)
+{
+	
+	.page
+	{
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.feature-1, .feature-2, .feature-3
+	{
+		width: 33.3%;
+		float: left;
+	}
+
+	.header
+	{
+		height: 400px;
+	}
+
+	#gmap
+	{
+		width: 600px;
+		height: 500px;
+	}
+
+
+
+}
+
+
